@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: 2704NodeApp1
+  host: 2704NodeApp1
+  disk_quota: 1024M
+  services:
+  - 2704NodeApp1-DataCache
+  - 2704NodeApp1-MonitoringAndAnalytics
